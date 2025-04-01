@@ -1,0 +1,21 @@
+https://github.com/espressif/arduino-esp32/tree/master/libraries/SPIFFS  // arduino-esp32/libraries
+/SPIFFS
+https://github.com/me-no-dev/ESPAsyncWebServer  // ESPAsyncWebServer
+https://github.com/adafruit/Adafruit-GFX-Library  //Adafruit-GFX-Library
+https://github.com/ZinggJM/GxEPD   //GxEPD
+https://github.com/bblanchon/ArduinoJson  // ArduinoJson,
+
+
+
+
+Using PlatformIO:
+
+Add the libraries to your platformio.ini file. For example:
+INI
+lib_deps =
+  https://github.com/ZinggJM/GxEPD
+  https://github.com/adafruit/Adafruit-GFX-Library
+  https://github.com/espressif/arduino-esp32/tree/master/libraries/SPIFFS
+  https://github.com/me-no-dev/ESPAsyncWebServer
+  https://github.com/bblanchon/ArduinoJson
+Would you like further assistance with setting up your development environment or writing more detailed code examples?
